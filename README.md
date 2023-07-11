@@ -18,7 +18,7 @@ Most of the sections refer to other repositories, so it is easier for me to main
 <a name="bashconfig"></a>
 ## Bash configuration
 
-This is straightforward, just clone the repo with 
+Clone the repo with 
 
 ```shell
 git clone git@github.com:vohonen/ubuntu-setup.git 
@@ -32,6 +32,14 @@ set -o vi
 
 <a name="keyboard"></a>
 ## Keyboard layout
+
+This part assumes that one uses a Finnish keyboard layout. Similar modifications can be done to any language keyboard layout. 
+
+As per [Bash configuration](#bashconfig), clone the repo or copy the file contents of `fi` in the directory `/usr/share/X11/xkb/symbols`. Additionally, swap `esc` and `caps lock` by running the command 
+
+```shell
+dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
+```
 
 
 <a name="keepassxc"></a>
