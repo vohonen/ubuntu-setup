@@ -80,59 +80,44 @@ dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
 ```
 
 
+
 <a name="keepassxc"></a>
 ## KeePassXC
 
 TBI
 
 
+
 <a name="nvim"></a>
 ## Neovim
 
-Sadly, at the moment the `nvim` is not maintained very attentively in `apt` and hence a PPA should be used if one does not want to install manually. Unfortunately, the stable PPA is also practically buried, so the [unstable PPA](https://launchpad.net/~neovim-ppa/+archive/ubuntu/unstable) must be used.
-
-First, check that you can use `add-apt-repository` by installing the required package:
-
-```shell
-sudo apt-get update
-sudo apt-get install software-properties-common
-```
-
-Then, the PPA can be added and Neovim installed from it with the required Python modules. 
-
-```shell
-sudo add-apt-repository ppa:neovim-ppa/stable
-sudo apt-get update
-sudo apt-get install neovim
-sudo apt-get install python-dev python-pip python3-dev python3-pip
-```
-
-To set `nvim` as the default editor, run 
-
-```shell
-sudo update-alternatives --install /usr/bin/editor editor /usr/bin/nvim 60
-sudo update-alternatives --config editor
-```
-
+See my [nvim-config repo](https://github.com/vohonen/nvim-config).
 
 
 
 <a name="zathura"></a>
 ## Zathura
 
+See my [zathurarc repo](https://github.com/vohonen/zathurarc).
+
+
 
 <a name="alacritty"></a>
 ## (Optional) Alacritty
+
+See my [nvim-config repo](https://github.com/vohonen/nvim-config). 
+
+Alacritty is surely optional as any other part of this config, but if one wants to use the full Neovim configuration but Alacritty and some Nerd Font are not installed, then one may consider reconfiguring nvimtree and potentially some other plugin as they rely on Nerd Font icons.
+
 
 
 <a name="resources"></a>
 ## Resources
 
-Here's a list of some of the resources that were used for this configuration. Additionally, Googling and Stack Overflow often do the trick.
+Here's a list of some of the resources that were used for this configuration. The software-specific repos also got some links on installation etc. Additionally, Googling and Stack Overflow often do the trick.
 
 [Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 [Connect to Github via SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 [Ubuntu custom keyboard layouts](https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions)
-[Installing Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
