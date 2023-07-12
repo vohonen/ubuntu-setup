@@ -71,7 +71,8 @@ export EDITOR=nvim
 # tex path for proper beamer builds
 export TEXMFHOME=$HOME/.texmf
 
-# set vi mode by using command `set -o vi`
+# set vi mode
+set -o vi
 # C-l to clear screen in vi mode
 bind '"\C-l":clear-screen'
 
