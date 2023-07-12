@@ -60,11 +60,7 @@ Clone the repo with
 git clone git@github.com:vohonen/ubuntu-setup.git 
 ```
 
-and replace your `.bashrc` in root with the one from the repo or just plain copy the contents there. Move also `.bash_aliases` to root and add any desired aliases, such as shortcuts to `cd` into certain directories. Finally, enable `vi` mode by running the command 
-
-```shell
-set -o vi
-```
+and replace your `.bashrc` in root with the one from the repo or just plain copy the contents there. Move also `.bash_aliases` to root and add any desired aliases, such as shortcuts to `cd` into certain directories. Notice that `vi` mode is enabled.
 
 
 
