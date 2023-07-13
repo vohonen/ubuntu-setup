@@ -8,7 +8,8 @@
 6. [Neovim](#nvim)
 7. [Zathura](#zathura)
 8. [(Optional) Alacritty](#alacritty)
-9. [Resources](#resources)
+9. [(Optional) Firefox](#firefox)
+10. [Resources](#resources)
 
 <a name="introduction"></a>
 ## Introduction
@@ -105,6 +106,18 @@ See my [nvim-config repo](https://github.com/vohonen/nvim-config).
 
 Alacritty is surely optional as any other part of this config, but if one wants to use the full Neovim configuration but Alacritty and some Nerd Font are not installed, then one may consider reconfiguring nvimtree and potentially some other plugin as they rely on Nerd Font icons.
 
+
+
+<a name="firefox"></a>
+## (Optional) Firefox
+
+Shortly something of my browser preferences. I would like to like [Brave](brave.com), but I have had issues with e.g. setting PPAs and some other stuff. Hence, I use Firefox for now. Install with 
+
+```shell
+sudo apt update && sudo apt install -y firefox
+```
+
+The more specific aspects of browser setup are with respect to the extensions. Pressing `ctrl+shift+a` one can manage add-ons, and I like to have first and foremost Vimium, Tomato Clock, AdBlocker Ultimate and Ecosia Search. After installing the add-ons, go to Firefox's add-ons page again by `ctrl+shift+a` and click the three dots after Vimium and choose Preferences. Then, at the bottom of the resulting Vimium Options page click the button "Show Advanced Options", and find the Default search engine field and change `google` -> `ecosia` in the default url (Ecosia utilises Bing search that is a little worse than Google's, but does the job adequately in a majority of the cases, and planting trees is more important).
 
 
 <a name="resources"></a>
