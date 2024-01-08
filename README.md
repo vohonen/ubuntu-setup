@@ -39,16 +39,15 @@ Next, connect to Github via `ssh`. First, generate a new SSH key with using
 ssh-keygen -t ed25519 -C "example@email.com" 
 ```
 
-remembering to change the email address to your Github email. The prompt asks to "Enter a file in which to save the key", and one can just press enter to accept default file location. Then, set a secure passphrase.
+remembering to change the email address to your Github email. The prompt asks to "Enter a file in which to save the key", and one can just press enter to accept default file location or set a desired filename like github (notice that some versions save to the `.ssh` folder by default and some to the current directory). Then, set a secure passphrase.
 
 After generating a new key, it must be added to the ssh-agent. Start the agent and add the key with 
 
 ```shell
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
+ssh-add PATH_TO_YOUR_PRIVATE_KEY_FILE
 ```
-
-Then, one can add the key to the desired Github account, see [Github instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) if unsure how to proceed with that.
+Then, one can add the key to the desired Github account, see [Github instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 
 
