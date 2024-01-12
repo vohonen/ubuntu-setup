@@ -75,7 +75,3 @@ export TEXMFHOME=$HOME/.texmf
 set -o vi
 # C-l to clear screen in vi mode
 bind '"\C-l":clear-screen'
-
-# alacritty autocompletions
-. "$HOME/.cargo/env"
-source /home/vili/alacritty/extra/completions/alacritty.bash
