@@ -101,7 +101,7 @@ See my [zathurarc repo](https://github.com/vohonen/zathurarc).
 <a name="alacritty"></a>
 ## (Optional) Alacritty
 
-See my [nvim-config repo](https://github.com/vohonen/nvim-config). 
+See my [alacritty-config repo](https://github.com/vohonen/alacritty-config). 
 
 Alacritty is surely optional as any other part of this config, but if one wants to use the full Neovim configuration but Alacritty and some Nerd Font are not installed, then one may consider reconfiguring nvimtree and potentially some other plugin as they rely on Nerd Font icons.
 
@@ -116,7 +116,9 @@ Shortly something of my browser preferences. I would like to like [Brave](brave.
 sudo apt update && sudo apt install -y firefox
 ```
 
-The more specific aspects of browser setup are with respect to the extensions. Pressing `ctrl+shift+a` one can manage add-ons, and I like to have first and foremost Vimium, Tomato Clock, AdBlocker Ultimate and Ecosia Search. After installing the add-ons, go to Firefox's add-ons page again by `ctrl+shift+a` and click the three dots after Vimium and choose Preferences. Then, at the bottom of the resulting Vimium Options page find the Default search engine field and change `google,com` -> `ecosia.org` in the default url (Ecosia utilises Bing search that is a little worse than Google's, but does the job adequately in a majority of the cases, and planting trees is more important).
+I like to have search history before suggestions, which can be modified from `about:preferences#search`. On top of that, my browser setup are with respect to extensions. Pressing `ctrl+shift+a` one can manage add-ons, and I like to have first and foremost Vimium, Tomato Clock, AdBlocker Ultimate and Ecosia Search. After installing the add-ons, go to Firefox's add-ons page again by `ctrl+shift+a` and click the three dots after Vimium and choose Preferences. Then, at the bottom of the resulting Vimium Options page find the Default search engine field and change `google,com` -> `ecosia.org` in the default url (Ecosia utilises Bing search that is a little worse than Google's, but does the job adequately in a majority of the cases, and planting trees is more important).
+
+One can also change the Firefox appearance to Dark from settings but the browser bar colour is dictated by operating system appearance theme.
 
 
 <a name="resources"></a>
