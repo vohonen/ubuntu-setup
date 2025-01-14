@@ -76,14 +76,6 @@ dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"
 ```
 
 
-
-<a name="keepassxc"></a>
-## KeePassXC
-
-TBI
-
-
-
 <a name="nvim"></a>
 ## Neovim
 
