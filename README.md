@@ -119,7 +119,10 @@ One can also change the Firefox appearance to Dark from settings but the browser
 Here's a list of some of the resources that were used for this configuration. The software-specific repos also got some links on installation etc. Additionally, Googling and Stack Overflow often do the trick.
 
 [Git setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
+
 [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 [Connect to Github via SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
 [Ubuntu custom keyboard layouts](https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions)
 
